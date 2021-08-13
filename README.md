@@ -1,0 +1,1 @@
+# Design-of-8-bit-Parity-generator-using-Pseudo-NMOS-logic
