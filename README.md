@@ -56,6 +56,35 @@ Commands to be used:<br/>
 ![Screenshot from 2021-09-05 11-20-08](https://user-images.githubusercontent.com/88282645/132116949-bef39d9a-463c-4e67-9479-b0f96152559d.png)<br/>
  Prelayout GTKwave<br/>
 ![Screenshot from 2021-09-05 11-21-37](https://user-images.githubusercontent.com/88282645/132116952-1f979da6-02c0-4ca4-b05d-2423042c92dc.png)<br/>
+# OpenLane design stages
+Synthesis
+1.yosys - Performs RTL synthesis<br/>
+2.abc - Performs technology mapping<br/>
+3.OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports<br/>
+Floorplan and PDN
+1.init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)<br/>
+2.ioplacer - Places the macro input and output ports<br/>
+3.pdn - Generates the power distribution network<br/>
+4.tapcell - Inserts welltap and decap cells in the floorplan<br/>
+Placement
+1.RePLace - Performs global placement<br/>
+2.Resizer - Performs optional optimizations on the design<br/>
+3.OpenDP - Perfroms detailed placement to legalize the globally placed components<br/>
+CTS<br/>
+1.TritonCTS - Synthesizes the clock distribution network (the clock tree)<br/>
+Routing<br/>
+1.FastRoute - Performs global routing to generate a guide file for the detailed router<br/>
+2.CU-GR - Another option for performing global routing.<br/>
+3.TritonRoute - Performs detailed routing<br/>
+4.SPEF-Extractor - Performs SPEF extraction<br/>
+GDSII Generation<br/>
+1.Magic - Streams out the final GDSII layout file from the routed def
+2.Klayout - Streams out the final GDSII layout file from the routed def as a back-up
+Checks
+1.Magic - Performs DRC Checks & Antenna Checks
+2.Klayout - Performs DRC Checks
+3.Netgen - Performs LVS Checks
+4.CVC - Performs Circuit Validity Checks
 
 
 
