@@ -49,7 +49,7 @@ The Skywater 130nm PDK uses 6 metal layers to perform CTS, PDN generation, and i
 *Command to be used in yosys*<br/> 
 ![Screenshot from 2021-09-05 11-27-45](https://user-images.githubusercontent.com/88282645/132117124-8b118010-cfd9-4e6a-9c51-4b2d61288c1c.png)<br/>
 --
-*YOSYS is an opensource FPGA*
+*YOSYS is an opensource FPGA*<br/>
 ![132098571-702370d5-bfe0-4eab-931a-ea0b7f0b2dff](https://user-images.githubusercontent.com/88282645/132116236-789d0c61-60a5-42ca-974a-16202a0df76c.png)<br/>
 # Prelayout<br/>
 Commands to be used:<br/>
