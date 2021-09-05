@@ -100,7 +100,8 @@ make pdk<br/>
 make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
 ```
 # Running OpenLane
-```make mount
+```
+make mount
 ```
 
 Note<br/>
