@@ -85,6 +85,13 @@ Checks<br/>
 2.Klayout - Performs DRC Checks<br/>
 3.Netgen - Performs LVS Checks<br/>
 4.CVC - Performs Circuit Validity Checks<br/>
+# Installation
+Prerequisites<br/>
+>> 1.Preferred Ubuntu OS)<br/>
+2.Docker 19.03.12+<br/>
+3.GNU Make<br/>
+4.Python 3.6+ with PIP<br/>
+5.Click, Pyyaml: pip3 install pyyaml click<br/>
 
 
 
