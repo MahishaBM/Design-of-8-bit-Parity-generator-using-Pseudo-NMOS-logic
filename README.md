@@ -57,16 +57,16 @@ Commands to be used:<br/>
  Prelayout GTKwave<br/>
 ![Screenshot from 2021-09-05 11-21-37](https://user-images.githubusercontent.com/88282645/132116952-1f979da6-02c0-4ca4-b05d-2423042c92dc.png)<br/>
 # OpenLane design stages
-Synthesis
+Synthesis<br/>
 1.yosys - Performs RTL synthesis<br/>
 2.abc - Performs technology mapping<br/>
 3.OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports<br/>
-Floorplan and PDN
+Floorplan and PDN<br/>
 1.init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)<br/>
 2.ioplacer - Places the macro input and output ports<br/>
 3.pdn - Generates the power distribution network<br/>
 4.tapcell - Inserts welltap and decap cells in the floorplan<br/>
-Placement
+Placement<br/>
 1.RePLace - Performs global placement<br/>
 2.Resizer - Performs optional optimizations on the design<br/>
 3.OpenDP - Perfroms detailed placement to legalize the globally placed components<br/>
@@ -78,13 +78,13 @@ Routing<br/>
 3.TritonRoute - Performs detailed routing<br/>
 4.SPEF-Extractor - Performs SPEF extraction<br/>
 GDSII Generation<br/>
-1.Magic - Streams out the final GDSII layout file from the routed def
-2.Klayout - Streams out the final GDSII layout file from the routed def as a back-up
-Checks
-1.Magic - Performs DRC Checks & Antenna Checks
-2.Klayout - Performs DRC Checks
-3.Netgen - Performs LVS Checks
-4.CVC - Performs Circuit Validity Checks
+1.Magic - Streams out the final GDSII layout file from the routed def<br/>
+2.Klayout - Streams out the final GDSII layout file from the routed def as a back-up<br/>
+Checks<br/>
+1.Magic - Performs DRC Checks & Antenna Checks<br/>
+2.Klayout - Performs DRC Checks<br/>
+3.Netgen - Performs LVS Checks<br/>
+4.CVC - Performs Circuit Validity Checks<br/>
 
 
 
