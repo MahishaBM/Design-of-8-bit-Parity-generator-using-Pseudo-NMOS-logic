@@ -113,6 +113,13 @@ export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
 export IMAGE_NAME=<docker image name>
 docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) $IMAGE_NAME
 ```
+For verification:<br/>
+
+![image](https://user-images.githubusercontent.com/88282645/133581918-ae2e4988-f672-4cb6-8919-783c8ddd0636.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/133583431-5e2f6e2b-0a65-4ab1-93f4-d7ea45486ec0.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/133583512-af525464-8154-46cc-bbdb-8312446ea3c6.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/133583623-86c42261-0235-49e9-8060-78c8a88e3d91.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/133585421-6142c84b-1308-4d32-9302-12f986c80fa4.png)<br/>
 
 
 
