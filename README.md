@@ -146,6 +146,11 @@ if { [file exists $filename] == 1} {
 	source $filename
 }
 ```
+# Floorplan
+![image](https://user-images.githubusercontent.com/88282645/134843945-5945f1ef-1bd3-4a96-bba7-f9d992635f24.png)<br/>
+# Final Layout<br/>
+![image](https://user-images.githubusercontent.com/88282645/134844070-30cfa12c-455c-46bf-a059-d36702fc916a.png)<br/>
+
 
 
 
