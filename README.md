@@ -146,6 +146,10 @@ if { [file exists $filename] == 1} {
 	source $filename
 }
 ```
+
+# Yosys symthesis strategies
+![image](https://user-images.githubusercontent.com/88282645/139223014-90f8045e-39fe-443f-9467-6170da6f78b0.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/139222870-5b1aeb3a-decb-4120-9573-80f80f9d839f.png)<br/>
 # Floorplan
 ![image](https://user-images.githubusercontent.com/88282645/134843945-5945f1ef-1bd3-4a96-bba7-f9d992635f24.png)<br/>
 # Final Layout<br/>
