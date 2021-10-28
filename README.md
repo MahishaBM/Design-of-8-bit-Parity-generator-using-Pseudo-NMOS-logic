@@ -151,9 +151,25 @@ if { [file exists $filename] == 1} {
 ![image](https://user-images.githubusercontent.com/88282645/139223014-90f8045e-39fe-443f-9467-6170da6f78b0.png)<br/>
 ![image](https://user-images.githubusercontent.com/88282645/139222870-5b1aeb3a-decb-4120-9573-80f80f9d839f.png)<br/>
 # Floorplan
+![image](https://user-images.githubusercontent.com/88282645/139231254-4a2b5ec7-023a-41a4-870c-66f5b1c9d662.png)<br/>
 ![image](https://user-images.githubusercontent.com/88282645/134843945-5945f1ef-1bd3-4a96-bba7-f9d992635f24.png)<br/>
-# Final Layout<br/>
+# Placment
+![image](https://user-images.githubusercontent.com/88282645/139230649-ebf82eaf-3e23-43df-a401-7a6b5f5f6c8b.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/139230603-e476f7ed-f03f-4390-9552-6012f2743a28.png)<br/>
+# Layout after floorpan and placement<br/>
+command:```magic -T sky130A paritygen_8bit.mag```<br/>
+![image](https://user-images.githubusercontent.com/88282645/139233413-8ed2ba53-80cd-4534-a803-76f797ecf0ce.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/139233386-6589b76f-2ffa-4985-9231-ee75afa4ae45.png)<br/>
 ![image](https://user-images.githubusercontent.com/88282645/134844070-30cfa12c-455c-46bf-a059-d36702fc916a.png)<br/>
+# Final Layout(GDS)<br/>
+command:```magic -T sky130A paritygen_8bit.gds```<br/>
+![image](https://user-images.githubusercontent.com/88282645/139234466-5975da34-33ef-4ad6-82d8-984695eda809.png)<br/>
+![image](https://user-images.githubusercontent.com/88282645/139234419-b58577b4-b660-4739-9ac7-867446bb1fed.png)<br/>
+Close view:<br/>
+![image](https://user-images.githubusercontent.com/88282645/139234399-ee38c514-d230-4f2f-903f-eac3c71e26e2.png)<br/>
+
+
+
 
 
 
