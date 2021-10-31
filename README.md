@@ -147,7 +147,7 @@ if { [file exists $filename] == 1} {
 }
 ```
 
-# Yosys symthesis strategies
+# Yosys synthesis strategies
 ![image](https://user-images.githubusercontent.com/88282645/139223014-90f8045e-39fe-443f-9467-6170da6f78b0.png)<br/>
 ![image](https://user-images.githubusercontent.com/88282645/139222870-5b1aeb3a-decb-4120-9573-80f80f9d839f.png)<br/>
 # Floorplan
